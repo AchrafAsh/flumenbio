@@ -32,7 +32,7 @@ A fake biotech startup that have everything from a real one, except it's fake.
 #### Molecule-Target Activity (QSAR?)
 - [PADME: A Deep Learning-based Framework for Drug-Target Interaction Prediction](https://arxiv.org/abs/1807.09741)
 - [DeepCCI: End-to-end Deep Learning for Chemical-Chemical Interaction Prediction](https://arxiv.org/abs/1704.08432)
-- [Protein–Ligand Scoring with Convolutional Neural Networks](https://pubs.acs.org/doi/10.1021/acs.jcim.6b00740)
+- [Protein–Ligand Scoring with Convolutional Neural Networks](https://sci-hub.mksa.top/10.1021/acs.jcim.6b00740)
 
 
 ### Baselines:
