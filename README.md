@@ -18,7 +18,6 @@ A fake biotech startup that have everything from a real one, except it's fake.
 ### Papers
 
 #### Molecule Properties
-- [Augmenting Genetic Algorithms with Deep Neural Networks for Exploring the Chemical Space](https://arxiv.org/abs/1909.11655)
 
 
 #### Drug Design
@@ -28,11 +27,15 @@ A fake biotech startup that have everything from a real one, except it's fake.
 - [Grammar Variational Autoencoder](https://arxiv.org/pdf/1703.01925.pdf)
 - [Objective-Reinforced Generative Adversarial Networks (ORGAN) for Sequence Generation Models](https://arxiv.org/pdf/1705.10843.pdf)
 - [Junction Tree Variational Autoencoder for Molecular Graph Generation](https://arxiv.org/abs/1802.04364)
-
-
+- [Augmenting Genetic Algorithms with Deep Neural Networks for Exploring the Chemical Space](https://arxiv.org/abs/1909.11655) (uses QM9 dataset, Genetic Algorithm and a NN as discriminator)
 
 #### Molecule-Target Activity (QSAR?)
 - [PADME: A Deep Learning-based Framework for Drug-Target Interaction Prediction](https://arxiv.org/abs/1807.09741)
 - [DeepCCI: End-to-end Deep Learning for Chemical-Chemical Interaction Prediction](https://arxiv.org/abs/1704.08432)
 - [Protein–Ligand Scoring with Convolutional Neural Networks](https://pubs.acs.org/doi/10.1021/acs.jcim.6b00740)
-- 
+
+
+### Baselines:
+- Molecular properties: Graph Convolutional Network trained on QM9
+- Drug Design: two headed generator - add edge or node / attribute of the added component
+- Drug-Target activity: 
